@@ -36,7 +36,7 @@ The `articProtocol` is a Python script designed to perform various bioinformatic
 
 ```bash
 python articProtocol.py -r RUN_NAME -f FAST5 -m MIN -x MAX -a ACCURACY [-g NUM_CALLERS] [-k GPU_RUNNERS_PER_DEVICE] [-i CHUNKS_PER_RUNNER] [-j NUMGPUS] [-e EMAIL]
-
+```
 ### Parameters:
 
 - `-r, --run_name`: Name of the project.
