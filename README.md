@@ -37,3 +37,17 @@ The `articProtocol` is a Python script designed to perform various bioinformatic
 ```bash
 python articProtocol.py -r RUN_NAME -f FAST5 -m MIN -x MAX -a ACCURACY [-g NUM_CALLERS] [-k GPU_RUNNERS_PER_DEVICE] [-i CHUNKS_PER_RUNNER] [-j NUMGPUS] [-e EMAIL]
 
+### Parameters:
+
+- `-r, --run_name`: Name of the project.
+- `-f, --fast5`: Full path to the directory containing the fast5 files.
+- `-m, --min`: Minimum amplicon length.
+- `-x, --max`: Maximum amplicon length.
+- `-a, --accuracy`: Execute Guppy basecaller in high or fast mode (values: 'fast', 'high').
+- `-g, --num_callers`: (Optional) Number of parallel basecallers. Default = 8.
+- `-k, --gpu_runners_per_device`: (Optional) Tag to maximize GPU usage. Default = 64.
+- `-i, --chunks_per_runner`: (Optional) Maximum chunks per run. Default = 256.
+- `-j, --numGpus`: (Optional) Number of GPUs. Default = 1.
+- `-e, --email`: (Optional) Notify by email upon completion. Values: "Si" or "No". Default = "No".
+
+
