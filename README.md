@@ -51,3 +51,17 @@ python articProtocol.py -r RUN_NAME -f FAST5 -m MIN -x MAX -a ACCURACY [-g NUM_C
 - `-e, --email`: (Optional) Notify by email upon completion. Values: "Si" or "No". Default = "No".
 
 
+## Output Notes:
+
+1. `my_consensus_genomes.fasta`: This is a concatenated file of all consensus genome sequences.
+2. `depth.csv`: A file detailing sequencing depth.
+
+After completion, an email notification can be sent (if chosen) containing relevant details and attachments.
+
+## Contact:
+
+For any questions or issues with the code, feel free to reach out:
+
+**Twitter**: [@El_Dryosa](https://twitter.com/El_Dryosa)  
+**Email**: [example@email.com](mailto:juvenal.yosa@gmail.com)
+
